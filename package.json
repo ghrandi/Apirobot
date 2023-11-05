@@ -14,7 +14,7 @@
     "Mongoose",
     "Notes"
   ],
-  "author": "MrROBOTN_TN",
+  "author": "mr",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.3",
