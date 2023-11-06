@@ -35,15 +35,7 @@ app.get("/", (req, res) => {
   res.json({ message: "Welcome to Rest API By Chaaben Group." });
 });
 
-require("./app/routes/admin.routes.js")(app);
-require("./app/routes/user.routes.js")(app);
-require("./app/routes/category.routes.js")(app);
-require("./app/routes/product.routes.js")(app);
-require("./app/routes/prof.routes.js")(app);
-require("./app/routes/mat.routes.js")(app);
-require("./app/routes/smat.routes.js")(app);
-require("./app/routes/thou.routes.js")(app);
-require("./app/routes/content.routes.js")(app);
+
 
 // Get the port number from the environment variable or use port 3000 as a default
 const PORT = process.env.PORT || 4000;
